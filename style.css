@@ -59,8 +59,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
-img #home-pictures {
-    margin-bottom:10px;
+
+div.Text {
+    width:300px;
 }
 
 
