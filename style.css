@@ -69,8 +69,8 @@ div.Text {
 nav ul {
     list-style-type: none;
     margin: auto;
-    padding: 0;
-    background-color: #dddddd;
+    padding: 5px;
+    background-color: rgb(35, 100, 90);
     overflow: hidden;
 }
 
@@ -91,7 +91,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: red;
 }
 
 
