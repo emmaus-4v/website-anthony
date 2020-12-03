@@ -71,8 +71,7 @@ div.Textr{
     float:right;
 }
 
-#text-home {
-    font-size: 18px
+
     
 }
 
@@ -82,7 +81,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 5px;
-    background-color: rgb(35,100,90);
+    background-color: rgb(35,100,91);
     overflow: hidden;
 }
 
