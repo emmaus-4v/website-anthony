@@ -62,19 +62,25 @@ a:hover {
 }
 
 div.Textl {
-    width:300px;
+    width:350px;
     float:left;
+    font-size: 20px;
+    margin-right: 30px;
+    position: relative;
 }
 
 div.Textr{
-    width: 300px;
+    width: 350px;
     float:right;
+    font-size: 20px;
+    position: relative;
 }
 
-
-    
+.picturetop{
+    clear: both;
+    margin-left: 7%;
+    width: 600px;
 }
-
 
 /* navigatiebalk */
 nav ul {
