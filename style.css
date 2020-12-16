@@ -31,9 +31,10 @@ footer {
     text-align: center;
     padding-bottom: 10px;
     clear:both;
-    background-color: rgba(0,150,255,0.4);
+    background-color: rgb(0,150,255);
     color:black;
 }
+
 
 /* Animaties */
 
@@ -57,13 +58,6 @@ footer {
         color: rgb(137, 0, 200)
     }
 }
-
-@keyframes verschijn{
-    opacity: 10%;
-    opacity:40%;
-}
-
-
 
 /* Plaatjes */
 img.zweefLinksHome{
@@ -94,6 +88,12 @@ img.zweefRechtslang{
     height: 400px;
 }
 
+img.zweefLinkslang{
+   float:left;
+    margin-top: 40px;
+    height: 400px;
+}
+
 img{
     border: outset;
 }
@@ -117,12 +117,19 @@ a:hover {
     animation: pulse 2s infinite
 }
 
+div h2{
+    background-color: rgb(0, 175, 255);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+div {
+    background-color: rgba(0, 100, 255, 0.6);
+    border: outset;
+    padding: 5%;
+}
 
 /* Tekst */
-
-div{
-    animation: verschijn 3s
-}
 
 div.TextlHome{
     width:310px;
@@ -152,6 +159,7 @@ div.Textl{
     clear:both;
     background-color: rgba(0,150,255,0.4);
     border: inset;
+    padding: 2%;
 }
 
 div.Textr{
@@ -161,6 +169,7 @@ div.Textr{
     clear:both;
     background-color: rgba(0,150,255,0.6);
     border: inset;
+    padding: 2%;
 }
 
 
@@ -178,7 +187,7 @@ span.titlelist{
     font-weight:bold;
 }
 
-/* Id's en classes */
+/* Enkele Id's en classes */
 
 #Crunchyroll{
     color: #FFA500;
@@ -200,13 +209,17 @@ span.titlelist{
     color:skyblue;
 }
 
+#twist{
+    background-color: darkblue;
+}
+
 /* navigatiebalk */
 
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 5px;
-    background-color: rgb(35,100,91);
+    background-color: rgb(0,100,200);
     overflow: hidden;
 }
 
@@ -217,7 +230,8 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: rgba(200,200,200);
+    color: rgba(50,50,50);
+    font-weight: bold;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -228,7 +242,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: red;
+    background-color:rgba(255,255,255,0.4);
 }
 
 
