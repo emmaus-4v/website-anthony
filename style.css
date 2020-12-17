@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-image: url("afbeeldingen/aincrad.jpg");
+    background-color: rgb(200,200,200);
     color: black;
     font: Verdana, Arial, Sans-Serif;
 }
@@ -31,12 +31,15 @@ footer {
     text-align: center;
     padding-bottom: 10px;
     clear:both;
-    background-color: rgb(0,150,255);
     color:black;
 }
 
 
 /* Animaties */
+
+.hoofdtitel{
+    animation: pulse 2s infinite
+}
 
 @keyframes pulse{
     0%, 100%{
@@ -62,11 +65,13 @@ footer {
 /* Plaatjes */
 img.zweefLinksHome{
     float:left;
+    margin-top: 30px;
     width:315px;
 }
 
 img.zweefRechtsHome {
     float:right;
+    margin-top: 30px;
     width:315px
 }
 
@@ -78,7 +83,8 @@ img.zweefLinks{
 
 img.zweefRechts{
     float:right;
-    margin: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
     width:315px
 }
 
@@ -92,10 +98,6 @@ img.zweefLinkslang{
    float:left;
     margin-top: 40px;
     height: 400px;
-}
-
-img{
-    border: outset;
 }
 
 /* specifieke stijlen */
@@ -113,65 +115,17 @@ a:hover {
     text-decoration: underline;
 }
 
-#hoofdtitel{
-    animation: pulse 2s infinite
-}
 
-div h2{
+
+h2{
     background-color: rgb(0, 175, 255);
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 div {
-    background-color: rgba(0, 100, 255, 0.6);
     border: outset;
-    padding: 5%;
 }
-
-/* Tekst */
-
-div.TextlHome{
-    width:310px;
-    float:left;
-    font-size: 20px;
-    position: relative;
-    color: black;
-    background-color: rgba(0,150,255,0.4);
-    border: inset;
-}
-
-div.TextrHome{
-    width: 315px;
-    float:right;
-    font-size: 20px;
-    position: relative;
-    clear: both;
-    color: black;
-    background-color: rgba(0,150,255,0.6);
-    border: inset;
-}
-
-div.Textl{
-    width:320px;
-    float:left;
-    position: relative;
-    clear:both;
-    background-color: rgba(0,150,255,0.4);
-    border: inset;
-    padding: 2%;
-}
-
-div.Textr{
-    width: 320px;
-    float:right;
-    position: relative;
-    clear:both;
-    background-color: rgba(0,150,255,0.6);
-    border: inset;
-    padding: 2%;
-}
-
 
 table{
     background-color: rgb(0,100,255);
@@ -186,6 +140,49 @@ td{
 span.titlelist{
     font-weight:bold;
 }
+
+/* Tekst */
+
+div.TextlHome{
+    margin-top: 20px;
+    width:310px;
+    float:left;
+    font-size: 20px;
+    position: relative;
+    color: black;
+    border: inset;
+    background-color: rgba(0, 100, 255, 0.5);
+}
+
+div.TextrHome{
+    width: 315px;
+    float:right;
+    font-size: 20px;
+    position: relative;
+    clear: both;
+    color: black;
+    border: inset;
+    background-color: rgba(0, 100, 255, 0.5);
+}
+
+div.Textl{
+    width:320px;
+    float:left;
+    position: relative;
+    clear:both;
+    border: inset;
+    padding: 2%;
+}
+
+div.Textr{
+    width: 320px;
+    float:right;
+    position: relative;
+    clear:both;
+    border: inset;
+    padding: 2%;
+}
+
 
 /* Enkele Id's en classes */
 
@@ -209,8 +206,16 @@ span.titlelist{
     color:skyblue;
 }
 
-#twist{
-    background-color: darkblue;
+.lijst-aanraders{
+    background-color: rgb(0,100,255);
+    width: 40%;
+    padding: 3%;
+    border: double;
+}
+
+#aanraders{
+    background-color: rgba(0, 100, 255, 0.7);
+    font-weight: bold;
 }
 
 /* navigatiebalk */
